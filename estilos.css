@@ -1,0 +1,504 @@
+body {
+    background-image: url(imagenes/repeated-square.png);
+    background-attachment: fixed;
+    font-family: arial, verdana;
+    
+}
+
+header, section, footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+header {
+   
+    height: 80px;
+    position: sticky;
+    top: 10px;
+    display: block;
+    
+}
+header nav {
+    list-style-type: none;
+    float: right;
+}
+header nav ul {
+    
+    margin: 0;
+    padding: 0;
+   
+}
+header nav ul li {
+    display: inline;
+   
+}
+header nav ul li a{
+    display: inline-block;
+    width: 150px;    
+    margin-bottom: 10px;    
+    text-decoration: none;
+    text-align: center;
+    line-height: 75px;
+    font-weight: bold;    
+    border: 1px solid #ffffff;
+    float:left;
+    box-sizing: border-box;
+    background-color: #ff0000;
+    color: white
+}
+header nav ul li a:hover {
+    color: #ff0000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+#marca{
+    width: 200px;
+    height: 77px;
+    background-color: #ffffff;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 12px;
+    box-sizing: border-box;    
+   }
+
+#inicio {    
+    width: 960px;  
+    margin: auto;
+          }
+#logo {
+    width: 302px;
+    height: 202px;
+    margin: auto;
+   }
+#fotos2 {
+    width: 45%;
+    height:auto ;
+    text-align: center;
+    margin-top: 0;
+    
+    }
+#datos {
+     width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    border: 5px solid #000000;
+        }
+
+#nosotros {
+    width: 960px;
+    height: 450px;
+    margin: auto;
+    
+  }
+
+#historia {
+    width: 430px;
+    height: 430px;
+    float: left;    
+    text-align: center;
+    margin: auto;
+    }
+
+#fotos img {
+    width: auto;
+    float: right;
+    height: 100%;
+    margin: auto;
+}
+#masinformacion_contenedor {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+#masinformacion a {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;    
+    background: red;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    border: 1px solid #fff;
+    
+}
+#masinformacion a:hover {
+    background: white;
+    color: black;
+    border: 1px solid #000000;  
+}
+#carreras {
+    height: 400px;
+    width: 960px;    
+    margin: auto;
+    
+}
+
+#carreras_izquierda {
+    width: 440px;
+    height: 450px; 
+    float: left;
+    text-align: center;
+}
+
+#carreras_izquierda ul {
+    list-style-type: none;
+    margin: auto;
+        }
+
+#carreras_izquierda nav ul li a {
+    margin-right: 20px;
+    text-decoration: none;  
+    background:red;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    height: 50px;    
+    display: block;  
+    line-height: 50px;
+    float: right;
+     border: 1px solid #fff;
+}
+
+#carreras_derecha {
+    width: 440px;
+    height: 450px; 
+    float: right;
+    text-align: center;
+}
+
+#carreras_derecha ul {
+    list-style-type: none;
+    margin: auto;
+        }
+
+#carreras_derecha nav ul li a {
+    margin-right: 20px;
+    text-decoration: none;  
+    background:red;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    height: 50px;    
+    display: block;  
+    line-height: 50px;
+    float: left;
+     border: 1px solid #fff;
+}
+
+#carreras_izquierda nav ul li a:hover{
+    background: white;
+    color: black;
+    border: 1px solid #000000;
+}
+#carreras_derecha nav ul li a:hover{
+    background: white;
+    color: black;
+    border: 1px solid #000000;
+}
+
+h2 {
+    background: white;
+    color: black;
+    border: 1px solid #000000;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+footer {
+    width: 960px;
+}
+
+#contacto {
+    width: 450px;
+    text-align: center;
+    float: left;
+}
+#redes {
+    float: left;
+    margin-top: 20px;
+    }
+#redes ul {
+    display: inline;
+}
+#redes ul li {
+    list-style-type: none;
+    display: inline;
+}
+#redes ul li a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#prof_ingles img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    }
+#prof_port img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+#psico img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+#mark  img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+#gastro img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+#trad_ingles img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+#trad_port img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+#at_menores img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+#rel_public img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+#periodismo img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+@media all and (min-width: 600px) and (max-width: 1023px){
+   
+
+header, section, footer {
+    width: 580px;/*modificado*/  
+    }
+
+header {   
+    height: 60px;/*modificado*/
+   }
+
+header nav ul li a{
+    
+    width: 94px; /*modificado*/   
+    line-height: 60px;/*modificado*/
+    }
+
+#marca{
+    width: 95px;/*modificado*/
+    height: 60px;/*modificado*/    
+    font-size: 30px;/*modificado*/
+   
+   }
+
+#inicio {    
+    width: 580px;  /*modificado*/
+    margin: auto;
+          }
+
+#nosotros {
+    width: 580px;/*modificado*/
+    height: 900px;/*modificado*/  
+     }
+
+#historia {
+    width: 580px;/*modificado*/
+    height: 300px;/*modificado*/
+    float: left; /*modificado*/      
+}
+#fotos img {
+    float: left;/*modificado*/
+    width: 580px;/*modificado*/
+   }
+#carreras {
+    margin-top: 40px;/*modificado*/    
+    width: 580px;/*modificado*/    
+   
+}
+
+#carreras_izquierda {
+    width: 580px;/*modificado*/  
+    height: 380px; /*modificado*/     
+    margin: auto;/*modificado*/
+}
+
+
+#carreras_izquierda nav ul li a {
+    margin: auto;/*modificado*/
+    width: 480px;/*modificado*/
+    line-height: 50px;/*modificado*/  
+    float: left;/*modificado*/
+     }
+
+#carreras_derecha {
+    width: 580px;/*modificado*/  
+    height: 380px; /*modificado*/  
+    margin: auto;/*modificado*/
+}
+
+#carreras_derecha nav ul li a {
+    margin: auto;/*modificado*/
+    width: 480px;/*modificado*/
+    float: left;/*modificado*/
+    }
+
+footer {
+    width: 580px;/*modificado*/     
+    margin: auto;/*modificado*/  
+}
+
+#contacto {
+    width: 580px;/*modificado*/     
+    float: left;/*modificado*/  
+}
+#redes {
+    float: left;/*modificado*/  
+    margin: auto;/*modificado*/ 
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-align: center; /*modificado*/  
+    width: 580px;/*modificado*/  
+       }
+    #fotos2 {
+    width: 67%;
+    height:auto ;
+    text-align: center;
+    margin-top: 0;
+    
+    }
+} /*fin @media 600 a 1023px */
+
+@media all and (max-width: 599px) {
+        header, section, footer {
+    width: 90%;/*modificado*/ 
+    }
+
+header {
+   
+    height: auto;/*modificado*/ 
+    position: inherit;/*modificado*/ 
+   
+    
+}
+header nav {
+    list-style-type: none;
+    float: none;/*modificado*/ 
+}
+
+header nav ul li a{   
+    width: 100%; /*modificado*/    
+    font-size: 35px;/*modificado*/ 
+    line-height: AUTO;/*modificado*/ 
+    float:none;/*modificado*/   
+}
+#marca{
+    width: 100%;/*modificado*/ 
+    height: auto;/*modificado*/ 
+    float: none;/*modificado*/ 
+       }
+    #inicio {    
+    width: 100%;  /*modificado*/
+    margin: auto;
+          }
+
+#nosotros {
+    width: 100%;/*modificado*/
+    height: 1000px;/*modificado*/ 
+    
+     }
+
+#historia {
+    width: 100%;/*modificado*/
+    height: 500px;/*modificado*/
+    float: left; /*modificado*/ 
+    
+}
+#fotos img {
+    float: left;/*modificado*/
+    width: 100%;/*modificado*/
+    height: auto;/*modificado*/
+   }
+#carreras {
+    margin-top: 40px;/*modificado*/    
+    width: 100%;/*modificado*/    
+   
+}
+
+#carreras_izquierda {
+    width: 100%;/*modificado*/  
+    height: 380px; /*modificado*/     
+    margin: auto;/*modificado*/
+}
+
+
+#carreras_izquierda nav ul li a {
+    margin: auto;/*modificado*/
+    width: 100%;/*modificado*/
+    line-height: 50px;/*modificado*/  
+    float: none;/*modificado*/
+     }
+
+#carreras_derecha {
+    width: 100%;/*modificado*/  
+    height: 380px; /*modificado*/  
+    margin: auto;/*modificado*/
+}
+
+#carreras_derecha nav ul li a {
+    margin: auto;/*modificado*/
+    width: 100%;/*modificado*/
+    float: none;/*modificado*/
+    }
+
+footer {
+    width: 100%;/*modificado*/     
+    margin: auto;/*modificado*/  
+}
+
+#contacto {
+    width: 100%;/*modificado*/     
+    float: left;/*modificado*/  
+}
+#redes {
+    float: none;/*modificado*/  
+    margin: auto;/*modificado*/ 
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-align: center; /*modificado*/  
+    width: 100%;/*modificado*/  
+       }
+    #fotos2 {
+    width: 95%;
+    height:auto ;
+    text-align: center;
+    margin-top: 0;
+    
+    }
+}/*FIN SEGUNDO MEDIA MAX 599PX*/

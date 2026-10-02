@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="estilos.css" rel="stylesheet">
+    <title>Proyecto - U12 Nahuel Franco</title>
+    <meta name="viewport" content="widht=device-width, initial-scale=1">
+   
+</head>
+<body>
+    <header>
+    <div id="marca">IPCH</div>
+    <nav>
+        <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#carreras">Carreras</a></li>
+    <li><a href="#masinformacion_contenedor">Preinscripción</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>        
+    <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>   
+    </header>
+    
+    <section id="inicio">
+        <div id="logo">
+        <img src="imagenes/logo.png">
+         </div>    
+            </section>
+           
+    <section id="nosotros">
+    <div id="historia">
+        <h2>Nosotros</h2>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+        <p>No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+    </div>
+        <div id="fotos">
+        <img src="imagenes/frente.png">
+        </div> 
+    </section>
+    <section id="masinformacion_contenedor"><div id="masinformacion"><a href="bootstrap/index.html">MAS INFORMACIÓN</a></div></section>
+    <section id="carreras">
+    <div id="carreras_izquierda">
+        <h2>Carreras</h2>
+        <nav>
+            <ul>
+            
+                <li><a href="#fotos2" onclick="mostrar('prof_ingles'), ocultar('prof_port'), ocultar('psico'), ocultar('mark'), ocultar('gastro'), ocultar('trad_ingles'), ocultar('trad_port'), ocultar('at_menores'), ocultar('rel_public'), ocultar('periodismo')">Profesorado de Inglés</a></li>
+                
+            <li><a href="#fotos2" onclick="mostrar('prof_port'), ocultar('prof_ingles'), ocultar('psico'), ocultar('mark'), ocultar('gastro'), ocultar('trad_ingles'), ocultar('trad_port'), ocultar('at_menores'), ocultar('rel_public'), ocultar('periodismo')">Profesorado de Portugués</a></li>
+                
+            <li><a href="#fotos2" onclick="mostrar('psico'), ocultar('prof_ingles'), ocultar('prof_port'), ocultar('mark'), ocultar('gastro'), ocultar('trad_ingles'), ocultar('trad_port'), ocultar('at_menores'), ocultar('rel_public'), ocultar('periodismo')">Psicopedagogía</a></li>
+                
+            <li><a href="#fotos2" onclick="mostrar('mark'), ocultar('prof_ingles'), ocultar('prof_port'), ocultar('psico'), ocultar('gastro'), ocultar('trad_ingles'), ocultar('trad_port'), ocultar('at_menores'), ocultar('rel_public'), ocultar('periodismo')">Marketing y Publicidad</a></li>
+                
+            <li><a href="#fotos2" onclick="mostrar('gastro'), ocultar('prof_ingles'), ocultar('prof_port'), ocultar('psico'), ocultar('mark'), ocultar('trad_ingles'), ocultar('trad_port'), ocultar('at_menores'), ocultar('rel_public'), ocultar('periodismo')">Gastronomía</a></li>    
+            </ul>
+        </nav>
+        </div>
+    <div id="carreras_derecha"> 
+        <h2>Tecnicaturas</h2>
+        <nav>
+            <ul>
+            <li><a href="#fotos2" onclick="mostrar('trad_ingles'), ocultar('prof_ingles'), ocultar('prof_port'), ocultar('psico'), ocultar('mark'), ocultar('gastro'), ocultar('trad_port'), ocultar('at_menores'), ocultar('rel_public'), ocultar('periodismo')">Traductorado de Inglés</a></li>
+                
+            <li><a href="#fotos2" onclick="mostrar('trad_port'), ocultar('prof_ingles'), ocultar('psico'), ocultar('mark'), ocultar('gastro'), ocultar('trad_ingles'), ocultar('prof_port'), ocultar('at_menores'), ocultar('rel_public'), ocultar('periodismo')">Traductorado de Portugués</a></li>
+                
+            <li><a href="#fotos2" onclick="mostrar('at_menores'), ocultar('prof_ingles'), ocultar('prof_port'), ocultar('psico'), ocultar('mark'), ocultar('gastro'), ocultar('trad_ingles'), ocultar('trad_port'), ocultar('rel_public'), ocultar('periodismo')">Atención a Menores</a></li>
+                
+            <li><a href="#fotos2" onclick="mostrar('rel_public'), ocultar('prof_ingles'), ocultar('prof_port'), ocultar('psico'), ocultar('mark'), ocultar('gastro'), ocultar('trad_ingles'), ocultar('trad_port'), ocultar('at_menores'), ocultar('periodismo')">Relaciones Públicas e Institutcionales</a></li>
+                
+            <li><a href="#fotos2" onclick="mostrar('periodismo'), ocultar('prof_ingles'), ocultar('prof_port'), ocultar('psico'), ocultar('mark'), ocultar('gastro'), ocultar('trad_ingles'), ocultar('trad_port'), ocultar('at_menores'), ocultar('rel_public')">Periodismo Deportivo</a></li>    
+            </ul>
+        </nav>
+        </div>     
+    </section>
+    <section id="fotos2">
+          
+         <div id="prof_ingles" style="display: none"><img src="imagenes/Profesorado%20de%20Ingl%C3%A9s.png"></div>
+         <div id="prof_port" style="display: none"><img src="imagenes/Profesorado%20de%20Portugues.png"></div>
+         <div id="psico" style="display: none"><img src="imagenes/Psicopedagog%C3%ADa.png"></div>
+         <div id="mark" style="display: none"><img src="imagenes/Marketing.png"></div>
+         <div id="gastro" style="display: none"><img src="imagenes/Gastronom%C3%ADa.png"></div>
+         <div id="trad_ingles" style="display: none"><img src="imagenes/Traductorado%20de%20Ingl%C3%A9s.png"></div>
+         <div id="trad_port" style="display: none"><img src="imagenes/Traductorado%20de%20Portugues.png"></div>
+         <div id="at_menores" style="display: none"><img src="imagenes/Menores.png"></div>
+         <div id="rel_public" style="display: none"><img src="imagenes/Relaciones%20publicas.png"></div>
+         <div id="periodismo" style="display: none"><img src="imagenes/Periodismo%20deportivo.png"></div>
+        
+    </section>
+    
+    <footer>
+    <div id="contacto"><h2>Contactate con nosotros</h2></div>
+    <div id="redes">
+        <ul>
+        <li><a href="https://www.facebook.com/Instituto-Privado-Chaco-110285150895467" target="new"><img src="imagenes/facebook2.svg"></a></li>
+        <li><a href="instragram.com/uep15privadochaco" target="new"><img src="imagenes/instagram.svg"></a></li>
+        <li><a href="#" target="ñew"><img src="imagenes/whatsapp.svg"></a></li>
+        <li><a href="uep15chacosuperior@gmail.com" target="ñew"><img src="imagenes/mail4.svg"></a></li>
+        </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="funciones.js"></script>
+</body>
+</html>
